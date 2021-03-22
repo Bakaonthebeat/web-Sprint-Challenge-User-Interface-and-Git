@@ -51,6 +51,8 @@ table {
 
 header {
     width: 100%;
+    justify-content: center;
+    text-align: center;
     
 
 }
@@ -61,7 +63,7 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 16px 2%;
     font-size: 14px;
 
 }
@@ -152,6 +154,7 @@ p {
 
 footer {
     width: 100%;
+    height: 60px;
     background: black;
 }
 
@@ -160,11 +163,59 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 10px 2%;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABout Page Css */
+
+.containerAbout {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 20px 20px;
+  border-bottom: 2px dashed black;
+}
+
+.picGroup1 {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-right: 3%;
+}
+
+.picGroup2 {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.picGroup1 a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.picGroup2 a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.item {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  border-bottom: 1px dashed black;
+  margin: 20px;
+  padding: 20px;
 }
